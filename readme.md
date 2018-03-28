@@ -1,6 +1,6 @@
 ## Testing Vue
 
-A new homework to re-implement the Tutorial from Laracast
+A new homework to re-implement the tutorial from Laracast
 
 - [Testing Vue](https://laracasts.com/series/testing-vue)
 
