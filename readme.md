@@ -21,3 +21,4 @@ If you'd like to jump on board, let me show you, step by step, exactly what you 
 - [Ep 29](https://github.com/yxj0312/stream) 
 - [Ep 30](https://github.com/yxj0312/stream)
 - [Ep 30 -  TestingVue](https://github.com/yxj0312/TestingVue/commit/15274c6d3f370720c115c07f32acd888e4523614)
+- [Ep 31 - Homework - Favorite.vue](https://github.com/yxj0312/Homework/blob/master/resources/assets/js/components/Favorite.vue) 
