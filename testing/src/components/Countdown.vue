@@ -1,21 +1,43 @@
 <template>
-  <div>{{ remaining }}</div>
+  <div>
+    <div>
+      <span>{{ remaining.days() }} Days,</span>
+      <span>{{ remaining.hours() }} Hours,</span>
+      <span>{{ remaining.minutes() }} Minutes,</span>
+      <span>{{ remaining.seconds() }} Seconds</span>
+      left...
+    </div>
+  </div>
 </template>
 
 <script>
+import moment from "moment";
+
 export default {
-  props: [],
+  props: ["until"],
 
   components: {},
 
-  data() {
-    return {};
-  },
-
   computed: {
     remaining() {
-      return "123";
+      let remaining = moment.duration(Date.parse(this.until) - this.now);
+      console.log(remaining);
+
+      return {
+        days: remaining.days(),
+        hours: remaining.hours(),
+        minutes: remaining.minutes(),
+        seconds: remaining.seconds()
+      };
     }
-  }
+  },
+
+  data() {
+    return { now: new Date() };
+  },
+
+  computed: {},
+
+  methods: {}
 };
 </script>
