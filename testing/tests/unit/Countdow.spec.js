@@ -4,7 +4,6 @@ import { shallowMount } from "@vue/test-utils";
 import NumberRenderer from "@/components/NumberRenderer.vue";
 // import moment from 'moment';
 
-
 describe("NumberRenderer", () => {
   it("renders even numbers", () => {
     const wrapper = shallowMount(NumberRenderer, {
