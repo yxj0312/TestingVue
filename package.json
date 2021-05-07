@@ -55,7 +55,7 @@
     "jest-serializer-vue": "^2.0.2",
     "jsdom": "^11.12.0",
     "jsdom-global": "^3.0.2",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-vue": "^1.1.0",
